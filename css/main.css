@@ -1,0 +1,228 @@
+/* Pase de lista MIMM010523MDFRJNA9 */
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+}
+
+header nav {
+    display: flex;
+    /* justificar a la derecha */
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section {
+    width: 250px;
+    height: auto;
+    display: flex;
+    /* eliminar puntitos*/
+    list-style: none;
+    justify-content: right;
+    margin-top: 12px;
+    padding: 0 4px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav .nav-right-section a {
+    color: rgb(21, 21, 21);
+    margin-right: 15.2px;
+}
+
+nav .nav-right-section a:hover {
+    text-decoration: underline;
+}
+
+nav .nav-right-section .grid {
+    width: 24.1px;
+    line-height: normal;
+    cursor: pointer;
+    fill: currentColor;
+    color: #5f6368;
+    opacity: 1;
+    margin-right: 5.2px;
+    margin-left: 7.4px;
+    margin-top: 4.4px;
+}
+
+nav .nav-right-section .grid:hover {
+    background-color: #f0f0f0;
+    box-shadow: 0 0 0 4px #f0f0f0;
+    border-radius: 22px;
+    transition: 0s ease;
+}
+
+nav .nav-right-section .profile {
+    width: 32px;
+    margin-top: 4px;
+    margin-right: -1.2px;
+    border-radius: 20px;
+}
+
+nav .nav-right-section .profile:hover {
+    box-shadow: 0 0 0 4px #f0f0f0;
+    transition: 0s ease;
+}
+
+.logo {
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+.bar {
+    margin: 30px auto;
+    width: 573px;
+    height: 52px;
+    padding-left: 2px;
+    border-radius: 30px;
+    border: 1px #dcdcdc;
+    box-shadow: 0 4px 8px 0 #b4baeb, 0 6px 20px 0 #a6c5df;
+}
+
+.bar:hover {
+    box-shadow: 1px 1px 8px 1px #ebb4dd;
+    border-radius: 30px;
+}
+
+.bar:focus-within {
+    border-radius: 30px;
+    box-shadow: 1px 1px 8px 1px #cda6df;
+    outline: none;
+}
+
+.searchbar {
+    border-radius: 20px;
+    height: 40px;
+    border: none;
+    margin: 0 10px;
+    width: 420px;
+    font-size: 16px;
+    outline: none;
+    padding-top: 8px;
+}
+
+.len {
+    height: 20px;
+    position: relative;
+    margin-bottom: -3px;
+    margin-left: 20px;
+    margin-right: 2px;
+}
+
+.voice {
+    height: 20px;
+    position: relative;
+    margin-bottom: -3px;
+    margin-left: 4px;
+}
+
+.bi-camera {
+    height: 20px;
+    position: relative;
+    margin-bottom: -3px;
+    padding-left: 4px;
+}
+
+center {
+    display: block;
+    text-align: center;
+}
+
+.msg {
+    display: block;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.msg a {
+    color: #1e68a5;
+}
+
+.msg a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button:hover {
+    color: rgb(21, 21, 21);
+    /*border: solid 1px #5f6368;*/
+    box-shadow: 0 2px 4px 0 #ebb4dd, 0 3px 10px 0 #cda6df;
+}
+
+footer {
+    background-color: #f2f2f2;
+    color: #70757a;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 95px;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    vertical-align: middle;
+}
+
+.mx {
+    width: auto;
+    padding: 15px 30px;
+    font-size: 15px;
+    border-bottom: 1px solid #dadce0;
+}
+
+footer nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer nav .right-nav,
+.left-nav {
+    /*width: 380px;*/
+    height: auto;
+    display: flex;
+    /* eliminar puntitos*/
+    list-style: none;
+    margin-top: 12px;
+    padding-right: 20px;
+    align-items: center;
+}
+
+nav .right-nav a,
+.left-nav a {
+    display: block;
+    color: #70757a;
+    margin-right: 15px;
+}
+
+nav .right-nav a:hover,
+.left-nav a:hover {
+    text-decoration: underline;
+}
